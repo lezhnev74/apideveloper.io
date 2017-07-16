@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+<div class="hero is-medium is-primary is-bold">
+    <div class="container">
+        <div class="hero-body">
+            <h1 class="title">The Dashboard for API/backend developers</h1>
+            <h2 class="subtitle">
+                Free service to track every single HTTP request and response your app handles.
+            </h2>
+            <hr>
+            <a class="button is-success is-medium" href="https://dashboard.apideveloper.io">Sign in / Sign up</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="section">
+    <div class="container">
+
+        <div class="columns columns-2">
+            <div class="column is-one-third">
+                <a class="button" href="{{ site.github.repository_url }}">View the Project on GitHub</a>
+            </div>
+            <div class="column">
+                <section class="is-medium">
+                    <div class="content is-medium">
+                        {{ content }}
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Apideveloper.io</strong> by <a href="https://lessthan12ms.com/">Dmitriy Lezhnev</a>.<br>
+                Free service, offered "AS IS".
+            </p>
+        </div>
+    </div>
+</footer>
+
+{% if site.google_analytics %}
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}
+</body>
+</html>
