@@ -2,32 +2,30 @@
 title: Apideveloper.io - track every http request and response your app handles
 ---
             
-## What you can do with it?
-
-### Track every HTTP request your app recieves and response it produces
+## Track every HTTP request your app recieves and response it produces
 
 <div class="columns">
   <div class="column has-text-centered">
-    <img src="http://via.placeholder.com/350x200" class="is-fullwidth">
+    <img src="/resources/screen01.jpg" class="is-fullwidth">
     Find any request by setting specific criteria
   </div>
   <div class="column has-text-centered">
-    <img src="http://via.placeholder.com/350x200" class="is-fullwidth">
+    <img src="/resources/screen02.jpg" class="is-fullwidth">
     Inspect in details
   </div>
 </div>
 
 
 
-### Aggregate requests and see "the big picture"
+## Aggregate requests and see "the big picture"
 
 <div class="columns">
   <div class="column has-text-centered">
-    <img src="http://via.placeholder.com/350x200" class="is-fullwidth">
-    Analyze min/max time-to-response for each path or each full URL
+    <img src="/resources/screen03.jpg" class="is-fullwidth">
+    Analyze min/max (and percentiles) time-to-response for each path or each full URL
   </div>
   <div class="column has-text-centered">
-    <img src="http://via.placeholder.com/350x200" class="is-fullwidth">
+    <img src="/resources/screen04.jpg" class="is-fullwidth">
     Evaluate changing over time on the graph
   </div>
 </div>
