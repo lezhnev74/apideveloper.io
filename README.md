@@ -1,1 +1,1 @@
-# Visit [apideveloper.io](https://apideveloper.io)
+# Visit [apideveloper.io](http://apideveloper.io)
