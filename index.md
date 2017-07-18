@@ -2,7 +2,7 @@
 title: Apideveloper.io - track every http request and response your app handles
 ---
             
-## Handy UI to search through your requests/responses 
+## Handy UI to search through your requests & responses 
 
 <div class="columns">
   <div class="column has-text-centered">
