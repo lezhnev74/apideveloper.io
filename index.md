@@ -2,34 +2,48 @@
 title: Apideveloper.io - track every http request and response your app handles
 ---
             
-## Track every HTTP request your app recieves and response it produces
+## Handy UI to search through your requests/responses 
 
 <div class="columns">
   <div class="column has-text-centered">
-    <img src="/resources/screen01.jpg" class="is-fullwidth">
+    <img src="/resources/screen01.jpg" class="is-fullwidth bordered">
+    
+  </div>
+  <div class="column">
     Find any request by setting specific criteria
   </div>
+</div>
+
+<div class="columns">
   <div class="column has-text-centered">
-    <img src="/resources/screen02.jpg" class="is-fullwidth">
+    <img src="/resources/screen02.jpg" class="is-fullwidth bordered">
+  </div>
+  <div class="column">    
     Inspect in details
   </div>
 </div>
 
 
 
-## Aggregate requests and see "the big picture"
+## See how long your app handles requests
 
 <div class="columns">
   <div class="column has-text-centered">
-    <img src="/resources/screen03.jpg" class="is-fullwidth">
-    Analyze min/max (and percentiles) time-to-response for each path or each full URL
+    <img src="/resources/screen03.jpg" class="is-fullwidth bordered">
   </div>
-  <div class="column has-text-centered">
-    <img src="/resources/screen04.jpg" class="is-fullwidth">
-    Evaluate changing over time on the graph
+  <div class="column">
+    Analyze min/max (and percentiles) time-to-response
   </div>
 </div>
 
+<div class="columns">
+  <div class="column has-text-centered">
+    <img src="/resources/screen04.jpg" class="is-fullwidth bordered">
+  </div>
+  <div class="column">
+    Analyze response-time distribution 
+  </div>
+</div>
 
 <blockquote class="is-warning">
 <h2>3 days data retention</h2>

@@ -2,3 +2,9 @@
 ---
   //@import "{{ site.theme }}";
   //
+
+
+img.bordered {
+  border:1px solid #cecece;
+  padding:2px;
+}
