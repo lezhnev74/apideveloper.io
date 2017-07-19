@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/css/fa/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,7 +27,10 @@
                         Free service to track every single HTTP request and response your app handles.
                     </h2>
                     <hr>
-                    <a class="button is-light is-medium" href="https://dashboard.apideveloper.io">Sign in / Sign up</a>
+                    <a class="button is-warning is-medium" href="https://dashboard.apideveloper.io">
+                        <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <span>Sign in / Sign up</span>
+                    </a>
                 </div>
                 <div class="column">
                     <img src="/resources/screencast_preview.gif" class="bordered" style="width:100%;max-width:320px;">
@@ -56,6 +60,8 @@
 <footer class="footer">
     <div class="container">
         <div class="content has-text-centered">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            <br>
             From developers for developers<br>
             <strong>Apideveloper.io</strong> by <a href="https://lessthan12ms.com/">Dmitriy Lezhnev</a> <br>
             from <a href="https://babystep.tv">babystep.tv</a> team
